@@ -17,6 +17,6 @@ class Question
   end
 
   def check_answer(answer)
-    return self.num1 + self.num2 === answer
+    return self.num1 + self.num2 == answer
   end
 end
